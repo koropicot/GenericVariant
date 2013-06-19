@@ -7,8 +7,8 @@
     <ProjectGuid>{2D601AE8-AF33-4CCB-876A-3787CE46AE9D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Morfism</RootNamespace>
-    <AssemblyName>Morfism</AssemblyName>
+    <RootNamespace>GenericVariant</RootNamespace>
+    <AssemblyName>GenericVariant</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
