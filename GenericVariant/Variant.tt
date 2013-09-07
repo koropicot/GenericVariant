@@ -25,13 +25,13 @@ namespace GenericVariant
     {
         private Variant(){}
         private int label;
-		<#=Repeat(constructorFormat,"",1,order)#>
+<#=Repeat(constructorFormat,"",1,order)#>
 
         public T Match<T>(<#=Repeat("Func<T{0}, T> C{0}",",",1,order)#>)
         {
             switch (this.label)
             {<#=Repeat(@"
-				case {0}: return C{0}(this.value{0});","",1,order-1)#>
+                case {0}: return C{0}(this.value{0});","",1,order-1)#>
                 default: return <#=string.Format("C{0}(this.value{0});",order)#>
             }
         }

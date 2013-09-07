@@ -6,7 +6,7 @@ namespace GenericVariant
     {
         private Variant(){}
         private int label;
-		
+
         private T1 value1;
         public static Variant<T1> C1(T1 v1)
         {
@@ -27,7 +27,7 @@ namespace GenericVariant
     {
         private Variant(){}
         private int label;
-		
+
         private T1 value1;
         public static Variant<T1,T2> C1(T1 v1)
         {
@@ -47,7 +47,7 @@ namespace GenericVariant
         {
             switch (this.label)
             {
-				case 1: return C1(this.value1);
+                case 1: return C1(this.value1);
                 default: return C2(this.value2);
             }
         }
@@ -56,7 +56,7 @@ namespace GenericVariant
     {
         private Variant(){}
         private int label;
-		
+
         private T1 value1;
         public static Variant<T1,T2,T3> C1(T1 v1)
         {
@@ -83,8 +83,8 @@ namespace GenericVariant
         {
             switch (this.label)
             {
-				case 1: return C1(this.value1);
-				case 2: return C2(this.value2);
+                case 1: return C1(this.value1);
+                case 2: return C2(this.value2);
                 default: return C3(this.value3);
             }
         }
@@ -93,7 +93,7 @@ namespace GenericVariant
     {
         private Variant(){}
         private int label;
-		
+
         private T1 value1;
         public static Variant<T1,T2,T3,T4> C1(T1 v1)
         {
@@ -127,9 +127,9 @@ namespace GenericVariant
         {
             switch (this.label)
             {
-				case 1: return C1(this.value1);
-				case 2: return C2(this.value2);
-				case 3: return C3(this.value3);
+                case 1: return C1(this.value1);
+                case 2: return C2(this.value2);
+                case 3: return C3(this.value3);
                 default: return C4(this.value4);
             }
         }
@@ -138,7 +138,7 @@ namespace GenericVariant
     {
         private Variant(){}
         private int label;
-		
+
         private T1 value1;
         public static Variant<T1,T2,T3,T4,T5> C1(T1 v1)
         {
@@ -179,10 +179,10 @@ namespace GenericVariant
         {
             switch (this.label)
             {
-				case 1: return C1(this.value1);
-				case 2: return C2(this.value2);
-				case 3: return C3(this.value3);
-				case 4: return C4(this.value4);
+                case 1: return C1(this.value1);
+                case 2: return C2(this.value2);
+                case 3: return C3(this.value3);
+                case 4: return C4(this.value4);
                 default: return C5(this.value5);
             }
         }
@@ -191,7 +191,7 @@ namespace GenericVariant
     {
         private Variant(){}
         private int label;
-		
+
         private T1 value1;
         public static Variant<T1,T2,T3,T4,T5,T6> C1(T1 v1)
         {
@@ -239,11 +239,11 @@ namespace GenericVariant
         {
             switch (this.label)
             {
-				case 1: return C1(this.value1);
-				case 2: return C2(this.value2);
-				case 3: return C3(this.value3);
-				case 4: return C4(this.value4);
-				case 5: return C5(this.value5);
+                case 1: return C1(this.value1);
+                case 2: return C2(this.value2);
+                case 3: return C3(this.value3);
+                case 4: return C4(this.value4);
+                case 5: return C5(this.value5);
                 default: return C6(this.value6);
             }
         }
@@ -252,7 +252,7 @@ namespace GenericVariant
     {
         private Variant(){}
         private int label;
-		
+
         private T1 value1;
         public static Variant<T1,T2,T3,T4,T5,T6,T7> C1(T1 v1)
         {
@@ -307,12 +307,12 @@ namespace GenericVariant
         {
             switch (this.label)
             {
-				case 1: return C1(this.value1);
-				case 2: return C2(this.value2);
-				case 3: return C3(this.value3);
-				case 4: return C4(this.value4);
-				case 5: return C5(this.value5);
-				case 6: return C6(this.value6);
+                case 1: return C1(this.value1);
+                case 2: return C2(this.value2);
+                case 3: return C3(this.value3);
+                case 4: return C4(this.value4);
+                case 5: return C5(this.value5);
+                case 6: return C6(this.value6);
                 default: return C7(this.value7);
             }
         }
@@ -321,7 +321,7 @@ namespace GenericVariant
     {
         private Variant(){}
         private int label;
-		
+
         private T1 value1;
         public static Variant<T1,T2,T3,T4,T5,T6,T7,T8> C1(T1 v1)
         {
@@ -383,13 +383,13 @@ namespace GenericVariant
         {
             switch (this.label)
             {
-				case 1: return C1(this.value1);
-				case 2: return C2(this.value2);
-				case 3: return C3(this.value3);
-				case 4: return C4(this.value4);
-				case 5: return C5(this.value5);
-				case 6: return C6(this.value6);
-				case 7: return C7(this.value7);
+                case 1: return C1(this.value1);
+                case 2: return C2(this.value2);
+                case 3: return C3(this.value3);
+                case 4: return C4(this.value4);
+                case 5: return C5(this.value5);
+                case 6: return C6(this.value6);
+                case 7: return C7(this.value7);
                 default: return C8(this.value8);
             }
         }
@@ -398,7 +398,7 @@ namespace GenericVariant
     {
         private Variant(){}
         private int label;
-		
+
         private T1 value1;
         public static Variant<T1,T2,T3,T4,T5,T6,T7,T8,T9> C1(T1 v1)
         {
@@ -467,14 +467,14 @@ namespace GenericVariant
         {
             switch (this.label)
             {
-				case 1: return C1(this.value1);
-				case 2: return C2(this.value2);
-				case 3: return C3(this.value3);
-				case 4: return C4(this.value4);
-				case 5: return C5(this.value5);
-				case 6: return C6(this.value6);
-				case 7: return C7(this.value7);
-				case 8: return C8(this.value8);
+                case 1: return C1(this.value1);
+                case 2: return C2(this.value2);
+                case 3: return C3(this.value3);
+                case 4: return C4(this.value4);
+                case 5: return C5(this.value5);
+                case 6: return C6(this.value6);
+                case 7: return C7(this.value7);
+                case 8: return C8(this.value8);
                 default: return C9(this.value9);
             }
         }
@@ -483,7 +483,7 @@ namespace GenericVariant
     {
         private Variant(){}
         private int label;
-		
+
         private T1 value1;
         public static Variant<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10> C1(T1 v1)
         {
@@ -559,15 +559,15 @@ namespace GenericVariant
         {
             switch (this.label)
             {
-				case 1: return C1(this.value1);
-				case 2: return C2(this.value2);
-				case 3: return C3(this.value3);
-				case 4: return C4(this.value4);
-				case 5: return C5(this.value5);
-				case 6: return C6(this.value6);
-				case 7: return C7(this.value7);
-				case 8: return C8(this.value8);
-				case 9: return C9(this.value9);
+                case 1: return C1(this.value1);
+                case 2: return C2(this.value2);
+                case 3: return C3(this.value3);
+                case 4: return C4(this.value4);
+                case 5: return C5(this.value5);
+                case 6: return C6(this.value6);
+                case 7: return C7(this.value7);
+                case 8: return C8(this.value8);
+                case 9: return C9(this.value9);
                 default: return C10(this.value10);
             }
         }
@@ -576,7 +576,7 @@ namespace GenericVariant
     {
         private Variant(){}
         private int label;
-		
+
         private T1 value1;
         public static Variant<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11> C1(T1 v1)
         {
@@ -659,16 +659,16 @@ namespace GenericVariant
         {
             switch (this.label)
             {
-				case 1: return C1(this.value1);
-				case 2: return C2(this.value2);
-				case 3: return C3(this.value3);
-				case 4: return C4(this.value4);
-				case 5: return C5(this.value5);
-				case 6: return C6(this.value6);
-				case 7: return C7(this.value7);
-				case 8: return C8(this.value8);
-				case 9: return C9(this.value9);
-				case 10: return C10(this.value10);
+                case 1: return C1(this.value1);
+                case 2: return C2(this.value2);
+                case 3: return C3(this.value3);
+                case 4: return C4(this.value4);
+                case 5: return C5(this.value5);
+                case 6: return C6(this.value6);
+                case 7: return C7(this.value7);
+                case 8: return C8(this.value8);
+                case 9: return C9(this.value9);
+                case 10: return C10(this.value10);
                 default: return C11(this.value11);
             }
         }
@@ -677,7 +677,7 @@ namespace GenericVariant
     {
         private Variant(){}
         private int label;
-		
+
         private T1 value1;
         public static Variant<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12> C1(T1 v1)
         {
@@ -767,17 +767,17 @@ namespace GenericVariant
         {
             switch (this.label)
             {
-				case 1: return C1(this.value1);
-				case 2: return C2(this.value2);
-				case 3: return C3(this.value3);
-				case 4: return C4(this.value4);
-				case 5: return C5(this.value5);
-				case 6: return C6(this.value6);
-				case 7: return C7(this.value7);
-				case 8: return C8(this.value8);
-				case 9: return C9(this.value9);
-				case 10: return C10(this.value10);
-				case 11: return C11(this.value11);
+                case 1: return C1(this.value1);
+                case 2: return C2(this.value2);
+                case 3: return C3(this.value3);
+                case 4: return C4(this.value4);
+                case 5: return C5(this.value5);
+                case 6: return C6(this.value6);
+                case 7: return C7(this.value7);
+                case 8: return C8(this.value8);
+                case 9: return C9(this.value9);
+                case 10: return C10(this.value10);
+                case 11: return C11(this.value11);
                 default: return C12(this.value12);
             }
         }
@@ -786,7 +786,7 @@ namespace GenericVariant
     {
         private Variant(){}
         private int label;
-		
+
         private T1 value1;
         public static Variant<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13> C1(T1 v1)
         {
@@ -883,18 +883,18 @@ namespace GenericVariant
         {
             switch (this.label)
             {
-				case 1: return C1(this.value1);
-				case 2: return C2(this.value2);
-				case 3: return C3(this.value3);
-				case 4: return C4(this.value4);
-				case 5: return C5(this.value5);
-				case 6: return C6(this.value6);
-				case 7: return C7(this.value7);
-				case 8: return C8(this.value8);
-				case 9: return C9(this.value9);
-				case 10: return C10(this.value10);
-				case 11: return C11(this.value11);
-				case 12: return C12(this.value12);
+                case 1: return C1(this.value1);
+                case 2: return C2(this.value2);
+                case 3: return C3(this.value3);
+                case 4: return C4(this.value4);
+                case 5: return C5(this.value5);
+                case 6: return C6(this.value6);
+                case 7: return C7(this.value7);
+                case 8: return C8(this.value8);
+                case 9: return C9(this.value9);
+                case 10: return C10(this.value10);
+                case 11: return C11(this.value11);
+                case 12: return C12(this.value12);
                 default: return C13(this.value13);
             }
         }
@@ -903,7 +903,7 @@ namespace GenericVariant
     {
         private Variant(){}
         private int label;
-		
+
         private T1 value1;
         public static Variant<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14> C1(T1 v1)
         {
@@ -1007,19 +1007,19 @@ namespace GenericVariant
         {
             switch (this.label)
             {
-				case 1: return C1(this.value1);
-				case 2: return C2(this.value2);
-				case 3: return C3(this.value3);
-				case 4: return C4(this.value4);
-				case 5: return C5(this.value5);
-				case 6: return C6(this.value6);
-				case 7: return C7(this.value7);
-				case 8: return C8(this.value8);
-				case 9: return C9(this.value9);
-				case 10: return C10(this.value10);
-				case 11: return C11(this.value11);
-				case 12: return C12(this.value12);
-				case 13: return C13(this.value13);
+                case 1: return C1(this.value1);
+                case 2: return C2(this.value2);
+                case 3: return C3(this.value3);
+                case 4: return C4(this.value4);
+                case 5: return C5(this.value5);
+                case 6: return C6(this.value6);
+                case 7: return C7(this.value7);
+                case 8: return C8(this.value8);
+                case 9: return C9(this.value9);
+                case 10: return C10(this.value10);
+                case 11: return C11(this.value11);
+                case 12: return C12(this.value12);
+                case 13: return C13(this.value13);
                 default: return C14(this.value14);
             }
         }
@@ -1028,7 +1028,7 @@ namespace GenericVariant
     {
         private Variant(){}
         private int label;
-		
+
         private T1 value1;
         public static Variant<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15> C1(T1 v1)
         {
@@ -1139,20 +1139,20 @@ namespace GenericVariant
         {
             switch (this.label)
             {
-				case 1: return C1(this.value1);
-				case 2: return C2(this.value2);
-				case 3: return C3(this.value3);
-				case 4: return C4(this.value4);
-				case 5: return C5(this.value5);
-				case 6: return C6(this.value6);
-				case 7: return C7(this.value7);
-				case 8: return C8(this.value8);
-				case 9: return C9(this.value9);
-				case 10: return C10(this.value10);
-				case 11: return C11(this.value11);
-				case 12: return C12(this.value12);
-				case 13: return C13(this.value13);
-				case 14: return C14(this.value14);
+                case 1: return C1(this.value1);
+                case 2: return C2(this.value2);
+                case 3: return C3(this.value3);
+                case 4: return C4(this.value4);
+                case 5: return C5(this.value5);
+                case 6: return C6(this.value6);
+                case 7: return C7(this.value7);
+                case 8: return C8(this.value8);
+                case 9: return C9(this.value9);
+                case 10: return C10(this.value10);
+                case 11: return C11(this.value11);
+                case 12: return C12(this.value12);
+                case 13: return C13(this.value13);
+                case 14: return C14(this.value14);
                 default: return C15(this.value15);
             }
         }
@@ -1161,7 +1161,7 @@ namespace GenericVariant
     {
         private Variant(){}
         private int label;
-		
+
         private T1 value1;
         public static Variant<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16> C1(T1 v1)
         {
@@ -1279,21 +1279,21 @@ namespace GenericVariant
         {
             switch (this.label)
             {
-				case 1: return C1(this.value1);
-				case 2: return C2(this.value2);
-				case 3: return C3(this.value3);
-				case 4: return C4(this.value4);
-				case 5: return C5(this.value5);
-				case 6: return C6(this.value6);
-				case 7: return C7(this.value7);
-				case 8: return C8(this.value8);
-				case 9: return C9(this.value9);
-				case 10: return C10(this.value10);
-				case 11: return C11(this.value11);
-				case 12: return C12(this.value12);
-				case 13: return C13(this.value13);
-				case 14: return C14(this.value14);
-				case 15: return C15(this.value15);
+                case 1: return C1(this.value1);
+                case 2: return C2(this.value2);
+                case 3: return C3(this.value3);
+                case 4: return C4(this.value4);
+                case 5: return C5(this.value5);
+                case 6: return C6(this.value6);
+                case 7: return C7(this.value7);
+                case 8: return C8(this.value8);
+                case 9: return C9(this.value9);
+                case 10: return C10(this.value10);
+                case 11: return C11(this.value11);
+                case 12: return C12(this.value12);
+                case 13: return C13(this.value13);
+                case 14: return C14(this.value14);
+                case 15: return C15(this.value15);
                 default: return C16(this.value16);
             }
         }
