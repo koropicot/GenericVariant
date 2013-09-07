@@ -9,7 +9,7 @@ using System;
 namespace GenericVariant
 {
 <#
-	foreach (var order in Enumerable.Range(1, 8))
+	foreach (var order in Enumerable.Range(1, 16))
     {
 		var types = Repeat("T{0}", ",", 1, order);
 		var constructorFormat =string.Format(@"
