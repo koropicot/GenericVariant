@@ -1,4 +1,4 @@
-***このライブラリはC#拡張ライブラリ群 [Extensions](https://bitbucket.org/koropicot/extensions)に取り込まれました。***
+***このライブラリはC#拡張ライブラリ群 [Extensions](https://github.com/koropicot/Extensions)に取り込まれました。***
 
 #これはなに？
 C#でVariantを書くためのライブラリです。
@@ -9,4 +9,4 @@ Blog記事 [なんかできたものと、バリアントについて色々](htt
 #ライセンス
 
 NYSL Version 0.9982 に従います。
-詳しくはLicense.txtをみてください。
+詳しくはLICENSE.mdをみてください。
